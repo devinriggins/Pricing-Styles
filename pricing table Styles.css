@@ -99,6 +99,11 @@ label {
   box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
 }
 
+.button4 {
+  background-color: #04538e;
+  box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
+}
+
 .switch {
   position: relative;
   display: inline-block;
