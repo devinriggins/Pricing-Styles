@@ -94,14 +94,26 @@ label {
   box-shadow: 0 0 10px 0 #ff007c inset, 0 0 20px 2px #ff007c;
 }
 
+.button2:hover {
+  transform: scale(1.2);
+}
+
 .button3 {
   background-color: #ffae42;
   box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
 }
 
+.button3:hover {
+  transform: scale(1.2);
+}
+
 .button4 {
   background-color: #04538e;
   box-shadow: 0 0 10px 0 #04538e inset, 0 0 20px 2px #04538e;
+}
+
+.button4:hover {
+  transform: scale(1.2);
 }
 
 .switch {
