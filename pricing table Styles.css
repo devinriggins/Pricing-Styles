@@ -40,6 +40,15 @@ h2 {
   padding: 10px;
 }
 
+.list ui {
+  font-size: 10px;
+  list-style: none;
+  border-bottom: 0px solid #f4f4f4;
+  padding-inline-start: 0;
+  border-width: 1px;
+  padding: 10px;
+}
+
 .first {
   margin-top: 40px;
   border-top: 1px solid #f4f4f4;
