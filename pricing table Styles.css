@@ -26,9 +26,11 @@ body {
   color: #f4f4f4;
 }
 
-h1,
-h2 {
+h1{
   font-size: 2.2em;
+}
+h2 {
+  font-size: 1.5em;
 }
 
 .list li {
@@ -40,14 +42,7 @@ h2 {
   padding: 10px;
 }
 
-.list ui {
-  font-size: 10px;
-  list-style: none;
-  border-bottom: 0px solid #f4f4f4;
-  padding-inline-start: 0;
-  border-width: 1px;
-  padding: 10px;
-}
+
 
 .first {
   margin-top: 40px;
