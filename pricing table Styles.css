@@ -31,14 +31,14 @@ h1{
 }
 h2 {
   font-size: 1.5em;
-  border-bottom: 1px solid #f4f4f4;
+  text-align: left;
+  
 }
 
 .list li {
   font-size: 20px;
   list-style: none;
   padding-inline-start: 0;
-  border-width: 1px;
   padding: 10px;
 }
 
