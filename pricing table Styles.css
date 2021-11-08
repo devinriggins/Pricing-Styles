@@ -105,6 +105,10 @@ label {
   box-shadow: 0 0 10px 0 #04538e inset, 0 0 20px 2px #04538e;
 }
 
+.button4:hover {
+  transform: scale(1.2);
+}
+
 
 
 .switch {
