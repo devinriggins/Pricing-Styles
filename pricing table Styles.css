@@ -26,23 +26,26 @@ body {
   color: #f4f4f4;
 }
 
-h1,
-h2 {
+h1{
   font-size: 2.2em;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+  
 }
 
 .list li {
   font-size: 20px;
   list-style: none;
-  border-bottom: 1px solid #f4f4f4;
   padding-inline-start: 0;
-  border-width: 1px;
   padding: 10px;
 }
 
+
+
 .first {
   margin-top: 40px;
-  border-top: 1px solid #f4f4f4;
 }
 
 .list {
@@ -77,8 +80,6 @@ label {
   transition: all 0.3s ease 0s;
 }
 
-.button:hover {
-  transform: scale(1.2);
 }
 
 .button1 {
@@ -88,7 +89,7 @@ label {
 
 .button2 {
   background-color: #104d87;
-  box-shadow: 0 0 10px 0 #ff007c inset, 0 0 20px 2px #ff007c;
+  box-shadow: 0 0 10px 0 #104d87 inset, 0 0 20px 2px #104d87;
 }
 
 .button2:hover {
@@ -96,10 +97,24 @@ label {
   color: #ffffff
 }
 
+
 .button3 {
   background-color: #ffae42;
   box-shadow: 0 0 10px 0 #ffae42 inset, 0 0 20px 2px #ffae42;
 }
+
+
+
+.button4 {
+  background-color: #04538e;
+  box-shadow: 0 0 10px 0 #04538e inset, 0 0 20px 2px #04538e;
+}
+
+.button4:hover {
+  transform: scale(1.2);
+}
+
+
 
 .switch {
   position: relative;
@@ -169,4 +184,3 @@ input:checked + .slider:before {
   justify-content: center;
   flex-wrap: wrap;
 }
-
