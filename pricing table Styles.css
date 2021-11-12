@@ -61,7 +61,7 @@ ul {
 .top {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: top;
 }
 
 input,
