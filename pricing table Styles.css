@@ -61,7 +61,7 @@ ul {
 .top {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 
 input,
@@ -181,7 +181,7 @@ input:checked + .slider:before {
 
 .package-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
 }
