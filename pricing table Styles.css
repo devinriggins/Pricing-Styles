@@ -181,7 +181,7 @@ input:checked + .slider:before {
 
 .package-container {
   display: flex;
-  align-items: stretch;
+  align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
 }
