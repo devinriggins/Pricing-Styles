@@ -37,7 +37,7 @@ h2 {
 }
 
 .list li {
-  font-size: 20px;
+  font-size: 22px;
   list-style: none;
   padding-inline-start: 0;
   padding: 10px;
@@ -51,6 +51,7 @@ h2 {
 
 .list {
   width: 90%;
+  align-items: center;
 }
 
 ol,
