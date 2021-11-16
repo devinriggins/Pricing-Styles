@@ -182,7 +182,7 @@ input:checked + .slider:before {
 
 .package-container {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
 }
