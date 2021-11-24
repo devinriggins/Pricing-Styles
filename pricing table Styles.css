@@ -31,13 +31,13 @@ h1{
   font-size: 2.2em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: left;
   
 }
 
 .list li {
-  font-size: 22px;
+  font-size: 16;
   list-style: none;
   padding-inline-start: 0;
   padding: 10px;
@@ -50,7 +50,7 @@ h2 {
 }
 
 .list {
-  width: 80%;
+  width: 85%;
 
 }
 
