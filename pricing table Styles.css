@@ -22,7 +22,7 @@ body {
   align-items: center;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 0 19px 38px rgba(28, 171, 176, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+  box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
   flex-wrap: wrap;
   color: #f4f4f4;
 }
@@ -37,6 +37,7 @@ h2 {
 }
 
 .list li {
+  box-shadow: 0 19px 38px rgba(28, 171, 176, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
   font-size: 16;
   list-style: none;
   padding-inline-start: 0;
