@@ -17,6 +17,7 @@ body {
 }
 
 .packages {
+  padding-top:54px;
   margin: 20px;
   width: 300px;
   padding-bottom: 1.5em;
@@ -31,6 +32,25 @@ body {
   flex-wrap: wrap;
   color: #f4f4f4;
 }
+
+
+.package1 {
+  padding-top:5px;
+  margin: 20px;
+  width: 300px;
+  padding-bottom: 1.5em;
+  height: 100%;
+  background-color: #04538e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(35,233,230, 1), 0 15px 12px rgba(35,233,230, 1);
+  flex-wrap: wrap;
+  color: #f4f4f4;
+}
+
 
 
 
