@@ -19,7 +19,7 @@ body {
 .packages {
   padding-top:54px;
   margin: 20px;
-  width: 300px;
+  width: 350px;
   padding-bottom: 1.5em;
   height: 100%;
   background-color: #04538e;
@@ -37,7 +37,7 @@ body {
 .package1 {
   padding-top:5px;
   margin: 20px;
-  width: 300px;
+  width: 350px;
   padding-bottom: 1.5em;
   height: 100%;
   background-color: #04538e;
@@ -58,7 +58,7 @@ h1{
   font-size: 2.2em;
 }
 h2 {
-  font-size: 1.75em;
+  font-size: 1.55em;
   text-align: left;
   
 }
