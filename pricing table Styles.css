@@ -51,6 +51,27 @@ body {
   color: #f4f4f4;
 }
 
+.column {
+  float: left;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 15%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
@@ -65,7 +86,7 @@ h2 {
 
 .list li {
   box-shadow: 0 19px 38px rgba(28, 171, 176, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
-  font-size: 16;
+  font-size: 6;
   list-style: none;
   padding-inline-start: 0;
   padding: 10px;
@@ -78,7 +99,7 @@ h2 {
 }
 
 .list {
-  width: 85%;
+  width: 80%;
 
 }
 
@@ -166,10 +187,10 @@ label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #1e2321;
+  background-color: #50bfe6;
   -webkit-transition: 0.4s;
 
-  box-shadow: 2px 6px 25px #1e2321;
+  box-shadow: 2px 6px 25px #50bfe6;
   transform: translate(0px, 0px);
   transition: 0.6s ease transform, 0.6s box-shadow;
 }
@@ -190,9 +211,6 @@ input:checked + .slider {
   background-color: #50bfe6;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #50bfe6;
-}
 
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
