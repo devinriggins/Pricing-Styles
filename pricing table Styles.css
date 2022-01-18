@@ -54,7 +54,7 @@ body {
 .column {
   float: left;
   padding: 10px;
-  height: 100px; /* Should be removed. Only for demonstration */
+  height: 100px; 
 }
 
 .left {
@@ -65,7 +65,7 @@ body {
   width: 15%;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
