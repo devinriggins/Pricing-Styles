@@ -53,16 +53,19 @@ body {
 
 .column {
   float: left;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 100px; 
+  text-align: left;
 }
 
+
 .left {
-  width: 60%;
+  width: 55%;
 }
 
 .right {
-  width: 15%;
+  width: 25%;
 }
 
 
@@ -232,3 +235,4 @@ input:checked + .slider:before {
   justify-content: center;
   flex-wrap: wrap;
 }
+
